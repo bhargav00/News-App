@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+    height: 100%;
+    width: 100%;
+    background-color: #e4e4e4;
+    justify-content: center;
+}
+
+#app{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    overflow: hidden;
+}
+#main-img{
+    
+}
+
