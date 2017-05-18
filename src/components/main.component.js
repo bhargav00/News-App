@@ -1,6 +1,7 @@
 import React from 'react';
 import  '../styles/common.css';
 import LandingComponent from './landing.component' ;
+import NewsComponent from './news.component' ;
 export default class MainComponent extends React.Component {
         constructor(props) {
             super(props);
@@ -9,7 +10,6 @@ export default class MainComponent extends React.Component {
             };
         }
         StartJourney(){
-            console.log("1");
               this.setState({
             landing_page:false
         })
@@ -21,7 +21,7 @@ export default class MainComponent extends React.Component {
                 content= <LandingComponent StartJourney={this.StartJourney.bind(this)}/>;
             }
             else{
-                content= <div/>;
+                content= <NewsComponent/>;
             }
             return ( 
                 <div className ="container-fluid " > 
