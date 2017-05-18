@@ -7,14 +7,17 @@ body {
     width: 100%;
     background-color: #e4e4e4;
     justify-content: center;
+    
 }
-
+.container-fluid,.row{
+    height: 100%;
+}
 #app {
     height: 100%;
 }
 
-#main {
-    height: 100vh;
+#intro {
+    min-height: 100%;
     overflow: hidden;
     background: url('../images/background.png') no-repeat;;
    background-size: cover;
@@ -46,4 +49,12 @@ margin: 32px 0;
     color: #fff;
     height: 50px;
     text-transform: uppercase;
+}
+.NewsComponent
+{
+    height: 100%;
+}
+.slick-slider,.slick-list,.slick-track,.slick-slide
+{
+    height: 100% !important;
 }

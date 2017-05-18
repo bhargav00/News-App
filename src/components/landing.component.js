@@ -2,7 +2,7 @@ import React from 'react';
 export default class LandingComponent extends React.Component {
         render() {
             return ( 
-                        <div className="col-sm-3 col-xs-12" id="main">
+                        <div className="col-sm-3 col-xs-12" id="intro">
                             <div className="logo-div">
                             <img className="logo" src={require('../images/modus_green.png')} />
                            </div>
