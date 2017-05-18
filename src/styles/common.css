@@ -1,23 +1,50 @@
-html{
+html {
     height: 100%;
 }
 
 body {
-    font-family: 'Gloria Hallelujah', cursive;
     height: 100%;
     width: 100%;
     background-color: #e4e4e4;
     justify-content: center;
 }
 
-#app{
+#app {
     height: 100%;
     width: 100%;
 }
-#main{
-    overflow: hidden;
-}
-#main-img{
-    
-}
 
+#main {
+    height: 100vh;
+    overflow: hidden;
+    background: url('../images/background.png') no-repeat;;
+   background-size: cover;
+}
+.logo-div{
+    z-index:10;
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: calc(50% - 100px);
+}
+.logo{
+    width: 200px;
+}
+.introtext {
+    color: #fff;
+    text-align: center;
+}
+.button-connect {
+margin: 32px 0;
+    padding: 0 16px;
+    box-sizing: border-box;
+
+}
+.btn-success{
+    text-align: center;
+    display: block;
+    background: #00b63f!important;
+    color: #fff;
+    height: 50px;
+    text-transform: uppercase;
+}
