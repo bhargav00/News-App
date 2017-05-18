@@ -11,7 +11,7 @@ export default class LandingComponent extends React.Component {
                                 <p>A one of a kind platform to <br/>discover, create manage blogs </p>
                             </div>
                             <div className="button-connect"> 
-				                <a href="modus_home2.html" className="btn btn-success btn-lg">Start your journey</a>
+				                <a  onClick={this.props.StartJourney.bind(this)} className="btn btn-success btn-lg">Start your journey</a>
                             </div>
                         </div>
                  )
