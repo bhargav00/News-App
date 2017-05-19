@@ -1,7 +1,6 @@
 html {
     height: 100%;
 }
-
 body {
     height: 100%;
     width: 100%;
@@ -60,6 +59,7 @@ margin: 32px 0;
 }
 .black{
     background-color: black;
+    height: 20px;
 }
 .newsItem{
     height: 100%;
