@@ -6,6 +6,7 @@ export default class SingleNews extends React.Component {
         render() {
             return ( 
                        <div className="newsItem">
+                           <a onClick={this.props.backHandler.bind(this)}><img className="BackButton" src={require("../images/backButton.png")}/></a>
                            <img className="newsImage" src={this.props.news['image']}/>
                            <div className="contentBox">
                                <div className="category">{this.props.news['category']}</div>
@@ -13,11 +14,6 @@ export default class SingleNews extends React.Component {
                                 <div className="infoBar">{this.props.news['post_date']}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{this.props.news['readers']} Readers</div>
                                 <p className="sDescription">{this.props.news['full_text']}</p>
                                 <div>
-                                  
-                                    <a className="bookmarkBar">
-                                        <i className="fa fa-bookmark-o"></i>
-                                        <span className="bookmarks">{this.props.news['bookmarks']} bookmarks</span>
-                                    </a>
                                 </div>
                            
                            </div>

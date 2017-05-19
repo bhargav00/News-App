@@ -13,7 +13,7 @@ export default class NewsItem extends React.Component {
                                 <div className="infoBar">{this.props.news['post_date']}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{this.props.news['readers']} Readers</div>
                                 <p className="sDescription">{this.props.news['s_description']}</p>
                                 <div>
-                                    <a className="readMore" onClick={()=>this.props.ReadMoreHandler(this.props.news['news_id'])}>Read more...</a>
+                                    <a className="readMore" onClick={()=>this.props.readMoreHandler(this.props.news['news_id'])}>Read more...</a>
                                     <a className="bookmarkBar">
                                         <i className="fa fa-bookmark-o"></i>
                                         <span className="bookmarks">{this.props.news['bookmarks']} bookmarks</span>
