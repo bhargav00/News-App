@@ -27,7 +27,7 @@ export default class NewsComponent extends React.Component {
                 title:"Dark Horse",
                 image:require("../images/news1.jpg"),
                 category:"fashion",
-                s_description:"While I know ‘Dark Horse’ is supposed to invoke a sense of poetry or romance, I’ve been feeling quite like a horse lately – with the amount of work that I can sense is going to be piling up in the coming month.",
+                s_description:"While I know ‘Dark Horse’ is supposed to invoke a sense of poetry or romance, I’ve been feeling quite like a horse and cat both are friends ...",
                 post_date:"19-Sept",
                 readers:20
             }
@@ -36,7 +36,7 @@ export default class NewsComponent extends React.Component {
                 title:" What to wear to an outdoor Indian wedding",
                 image:require("../images/news2.jpg"),
                 category:"fashion",
-                s_description:"So the wedding planning has finally started and step one is to decide on a location. We are still in the process of narrowing down the location for the wedding.",
+                s_description:"So the wedding planning has finally started and step one is to decide on a location. We are still in the process of...",
                 post_date:"02-Oct",
                 readers:3
             }
