@@ -64,7 +64,7 @@ margin: 32px 0;
 .newsItem{
     height: 100%;
     background-color: #fff;
-    overflow-y: auto;
+    
 }
 .newsImage{
      width: 100%;
