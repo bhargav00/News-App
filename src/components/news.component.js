@@ -8,18 +8,19 @@ export default class NewsComponent extends React.Component {
        constructor(props) {
             super(props);
              this.state = {
-                news_id:''
+                news_id:'',
+                initialSlide:''
             };
         }
         readMoreHandler(news_id){
-               console.log("a");
               this.setState({
             news_id:news_id
         })  
     }
-        backHandler(){
-            console.log("b");
+        backHandler(initialSlide){
+            console.log('aa');
               this.setState({
+            initialSlide:initialSlide-1,
             news_id:0
         })  
     }
@@ -33,9 +34,9 @@ export default class NewsComponent extends React.Component {
                 verticalSwiping: true,
                 swipeToSlide: true,
                 arrows:false,
-                initialSlide:0,
+                initialSlide:this.state.initialSlide,
                 useCSS:true
-                //   beforeChange: function (currentSlide, nextSlide) {
+                //   beforeChange1 function (currentSlide, nextSlide) {
                 //     console.log('before change', currentSlide, nextSlide);
                 //   },
                 //   afterChange: function (currentSlide) {
