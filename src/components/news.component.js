@@ -14,16 +14,15 @@ export default class NewsComponent extends React.Component {
         }
         readMoreHandler(news_id){
               this.setState({
-            news_id:news_id
-        })  
-    }
+                news_id:news_id
+                })  
+        }
         backHandler(initialSlide){
-            console.log('aa');
               this.setState({
-            initialSlide:initialSlide-1,
-            news_id:0
-        })  
-    }
+                initialSlide:initialSlide-1,
+                news_id:0
+                })  
+        }
         render() {
             const settings = {
                 dots: false,
@@ -35,13 +34,7 @@ export default class NewsComponent extends React.Component {
                 swipeToSlide: true,
                 arrows:false,
                 initialSlide:this.state.initialSlide,
-                useCSS:true
-                //   beforeChange1 function (currentSlide, nextSlide) {
-                //     console.log('before change', currentSlide, nextSlide);
-                //   },
-                //   afterChange: function (currentSlide) {
-                //     console.log('after change', currentSlide);
-                //   },
+                useCSS:true,
             };  
             var newsList = [];
             news.forEach(function(item,index){
@@ -58,6 +51,4 @@ export default class NewsComponent extends React.Component {
                         </div>
                  )
             }
-
-
         }

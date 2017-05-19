@@ -14,13 +14,9 @@ export default class SingleNews extends React.Component {
                                 <div className="infoBar">{this.props.news['post_date']}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{this.props.news['readers']} Readers</div>
                                 <p className="sDescription">{this.props.news['full_text']}</p>
                                 <div>
-                                </div>
-                           
+                            </div>
                            </div>
-                          
                        </div>
                  )
             }
-
-
         }

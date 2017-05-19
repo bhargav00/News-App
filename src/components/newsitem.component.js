@@ -19,17 +19,14 @@ export default class NewsItem extends React.Component {
                                         <span className="bookmarks">{this.props.news['bookmarks']} bookmarks</span>
                                     </a>
                                 </div>
-                                 <hr/>
-                           <div className="footerBar">
-                                        <img className="footerMedia" width="40" height="40" src={this.props.news['author_img']} alt=""/>                            
-                                        <span className="author">{this.props.news['author']}</span>
-                                        <span className="subscriber">{this.props.news['author_subscribers']} subscribers</span>
-                                </div>
                            </div>
-                          
+                            <hr/>
+                           <div className="footerBar">
+                                <img className="footerMedia" width="40" height="40" src={this.props.news['author_img']} alt=""/>                            
+                                <span className="author">{this.props.news['author']}</span>
+                                <span className="subscriber">{this.props.news['author_subscribers']} subscribers</span>
+                            </div>
                        </div>
                  )
             }
-
-
         }

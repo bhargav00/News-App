@@ -1,5 +1,5 @@
 import React from 'react';
-import  '../styles/common.css';
+import  '../styles/main.css';
 import LandingComponent from './landing.component' ;
 import NewsComponent from './news.component' ;
 export default class MainComponent extends React.Component {
@@ -13,21 +13,18 @@ export default class MainComponent extends React.Component {
               this.setState({
             landing_page:false
         })
-           
         }
         render() {
-            var content;
-            if(this.state.landing_page==true){
-                content= <LandingComponent StartJourney={this.StartJourney.bind(this)}/>;
-            }
-            else{
-                content= <NewsComponent/>;
-            }
             return ( 
                 <div className ="container-fluid " > 
                      <div className="row"> 
                         <div className="col-sm-4 hidden-xs"></div> 
-                        {content}
+                        {
+                            this.state.landing_page==true?
+                            <LandingComponent StartJourney={this.StartJourney.bind(this)}/>
+                            :
+                            <NewsComponent/>
+                            }
                         <div className="col-sm-4 hidden-xs"></div> 
                     </div>
                 </div>)

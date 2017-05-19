@@ -4,9 +4,9 @@ export default class LandingComponent extends React.Component {
             return ( 
                         <div className="col-sm-3 col-xs-12" id="intro">
                             <div className="logo-div">
-                            <img className="logo" src={require('../images/modus_green.png')} />
-                           </div>
-                           <div className="introtext">
+                                <img className="logo" src={require('../images/modus_green.png')} />
+                            </div>
+                            <div className="introtext">
                                 <h1> Welcome aboard!</h1>
                                 <p>A one of a kind platform to <br/>discover, create manage blogs </p>
                             </div>
@@ -16,6 +16,4 @@ export default class LandingComponent extends React.Component {
                         </div>
                  )
             }
-
-
         }
