@@ -58,3 +58,14 @@ margin: 32px 0;
 {
     height: 100% !important;
 }
+.black{
+    background-color: black;
+}
+.newsItem{
+    height: 100%;
+    background-color: #fff;
+}
+.newsImage{
+     width: 100%;
+     height:250px;
+}
