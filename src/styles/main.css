@@ -6,7 +6,7 @@ body {
     width: 100%;
     background-color: #e4e4e4;
     justify-content: center;
-    
+    overflow-x: hidden;
 }
 .container-fluid,.row{
     height: 100%;
