@@ -38,7 +38,7 @@ export default class NewsComponent extends React.Component {
             };  
             var newsList = [];
             news.forEach(function(item,index){
-            newsList.push( <div key={index}><NewsItem news={item} readMoreHandler={this.readMoreHandler.bind(this)}/><div className="black"></div></div>)
+            newsList.push( <div key={index}><NewsItem news={item} readMoreHandler={this.readMoreHandler.bind(this)}/><div className="black">&nbsp;</div></div>)
             },this);
                         return ( 
                         <div className="col-sm-3 col-xs-12 NewsComponent">
