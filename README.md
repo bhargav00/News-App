@@ -11,3 +11,13 @@
    npm start 
    ```
 3. Go to ```locahost:7777``` in your browser. If the installation was fine, you should be able to see the landing page.
+
+
+### Folder structure explained  
+The entire framework consists of 4 sections:  
+1. The config files (webpack and node server) : All are on the main directory  
+2. The Javascript files (ReactJS components)  : All components are inside ```src/components``` 
+3. Static resources (images, css, etc..)      : All are inside ```src/```
+4. News Data file                             : Inside ```src/data/newsData.js``` 
+
+
