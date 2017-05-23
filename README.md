@@ -12,7 +12,7 @@
    ```
 3. Go to ```locahost:7777``` in your browser. If the installation was fine, you should be able to see the landing page.
 
-### Demo : Link(https://mysterious-river-94481.herokuapp.com/)
+### [Demo](https://mysterious-river-94481.herokuapp.com/)
 ### Folder structure explained  
 The entire framework consists of 4 sections:  
 1. The config files (webpack and node server) : All are on the main directory  
